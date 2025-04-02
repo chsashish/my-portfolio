@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: var(--line-height);
+    background-color: #A3BBFB !important;
+    color: var(--primary-color);
+    margin: 0;
+    overflow-x:hidden ;
+    transform: translateY(-100vh);
+    transition: opacity 1s ease-out, transform 1.2s ease-out;
+}
+
+
+.project {
+    background-color: #1F2937 !important;
+    color: #A3BBFB !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul,
+li,
+a,
+p {
+    text-decoration: none !important;
+    list-style: none;
+}
+
+button {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    
+}
+
+
+.hero-section {
+    padding: 6% 0%;
+    height: 100vh;
+}
+
+.inner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.inner-content h1 {
+    color: #1F2937;
+    letter-spacing: .15rem;
+    text-decoration: solid rgb(31, 41, 55);
+    line-height: 2.25em;
+}
+
+.inner-content p {
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+#links {
+    font-family: 'Prata', serif;
+}
+
+.left-content ul li a {
+    font-size: 10vw !important;
+    line-height: 0.95em;
+}
+
+@media (min-width: 768px) {
+    .fs-md-custom {
+        font-size: 9vw !important;
+    }
+}
+
+.nav-link {
+    transition: transform 0.3s ease, font-style 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: translateX(10px) skewX(-5deg);
+}
+
+.fs-8 {
+    font-size: 8vw !important;
+    line-height: 0.95em;
+    color: #A3BBFB !important;
+}
+.fs-9{
+    color:#A3BBFB;
+}
+.fs-9:hover{
+    text-decoration: underline !important;
+}
+.fixed-icons{
+    z-index: 11;
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+}
+.fixed-icons a {
+    transform: translate(100px, 0px);
+    border-radius: 50px 0px 0px 50px;
+    text-align: left;
+    margin: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.8s;
+}
+.fixed-icons a i{
+    background-color: #FFF;
+    height: 25px;
+    width: 25px;
+    color: #000;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+.fixed-icons a:hover {
+    color: #FFF;
+    transform: translate(0px, 0px);
+}
+.fixed-icons a:hover i, .fixed-icons a:hover img {
+    transform: rotate(360deg);
+}
+.x{
+    background-color: #222222;
+    color:#fff;
+}
+.insta{
+    background-color: #E1306C;
+    color:#fff;
+}
+.linkedin{
+    background-color: #0077B5;
+    color:#fff;
+}
